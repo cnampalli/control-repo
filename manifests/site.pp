@@ -13,7 +13,7 @@
 
 # Disable filebucket by default for all File resources:
 #https://docs.puppet.com/pe/2015.3/release_notes.html#filebucket-resource-no-longer-created-by-default
-File { backup => true }
+File { backup => false }
 
 # DEFAULT NODE
 # Node definitions in this file are merged with node data from the console. See
